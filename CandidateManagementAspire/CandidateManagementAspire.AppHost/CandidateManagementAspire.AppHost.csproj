@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<Sdk Name="Aspire.AppHost.Sdk" Version="9.5.0" />
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<UserSecretsId>ba9eaaa2-365e-424c-9dda-f83a4f5a44dd</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Aspire.Hosting.AppHost" Version="9.5.0" />
+		<PackageReference Include="Aspire.Hosting.SqlServer" Version="9.5.0" />
+
+		<ProjectReference Include="..\..\CandidateManagement\CandidateService\CandidateService.csproj" />
+		<ProjectReference Include="..\..\CandidateManagement\InterviewService\InterviewService.csproj" />
+		<ProjectReference Include="..\..\CandidateManagement\RequirementService\RequirementService.csproj" />
+		<ProjectReference Include="..\..\CandidateManagement\ReportService\ReportService.csproj" />
+		<ProjectReference Include="..\..\GatewayAPI\GatewayAPI.csproj" />
+	</ItemGroup>
+
+
+</Project>

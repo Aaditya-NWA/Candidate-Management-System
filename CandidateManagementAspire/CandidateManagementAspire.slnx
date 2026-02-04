@@ -1,0 +1,11 @@
+<Solution>
+  <Project Path="../CandidateManagement/CandidateService/CandidateService.csproj" />
+  <Project Path="../CandidateManagement/InterviewService/InterviewService.csproj" />
+  <Project Path="../CandidateManagement/ReportService/ReportService.csproj" />
+  <Project Path="../CandidateManagement/RequirementService/RequirementService.csproj" />
+  <Project Path="../GatewayAPI/GatewayAPI.csproj" />
+  <Project Path="CandidateManagementAspire.ApiService/CandidateManagementAspire.ApiService.csproj" />
+  <Project Path="CandidateManagementAspire.AppHost/CandidateManagementAspire.AppHost.csproj" />
+  <Project Path="CandidateManagementAspire.ServiceDefaults/CandidateManagementAspire.ServiceDefaults.csproj" />
+  <Project Path="CandidateManagementAspire.Web/CandidateManagementAspire.Web.csproj" />
+</Solution>
