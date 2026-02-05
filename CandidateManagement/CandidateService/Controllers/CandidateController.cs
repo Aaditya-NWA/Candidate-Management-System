@@ -14,11 +14,11 @@ namespace CandidateService.Controllers
     public class CandidateController : ControllerBase
     {
         private readonly CandidateDbContext _context;
-        private readonly CandidateBulkInsertService _service;
+        private readonly ICandidateBulkInsertService _service;
 
         public CandidateController(
             CandidateDbContext context,
-            CandidateBulkInsertService service)
+            ICandidateBulkInsertService service)
         {
             _context = context;
             _service = service;

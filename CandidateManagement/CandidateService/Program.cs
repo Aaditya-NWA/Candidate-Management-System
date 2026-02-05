@@ -9,6 +9,8 @@ builder.AddServiceDefaults();
 builder.Services.AddDbContext<CandidateDbContext>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddScoped<ICandidateBulkInsertService, CandidateBulkInsertService>();
+
 builder.Services.AddScoped<CandidateBulkInsertService>();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

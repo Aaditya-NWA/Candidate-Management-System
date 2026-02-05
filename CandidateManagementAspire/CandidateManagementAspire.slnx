@@ -8,4 +8,6 @@
   <Project Path="CandidateManagementAspire.AppHost/CandidateManagementAspire.AppHost.csproj" />
   <Project Path="CandidateManagementAspire.ServiceDefaults/CandidateManagementAspire.ServiceDefaults.csproj" />
   <Project Path="CandidateManagementAspire.Web/CandidateManagementAspire.Web.csproj" />
+  <Project Path="CandidateService.Tests/CandidateService.Tests.csproj" Id="ee8d95c3-0e8b-4961-8faf-6baf20f49077" />
+  <Project Path="GatewayAPI.Tests/GatewayAPI.Tests.csproj" Id="2729b444-d910-4980-837d-46e4e0b1a2aa" />
 </Solution>
